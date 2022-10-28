@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            create a form
+        </title>
+    </head>
+    <style>
+        h1 {
+            text-align: center;
+            color: crimson;
+        }
+        h3{
+            background-color: blueviolet;
+            color: honeydew;
+        }
+        body{
+            background-color: black;
+            color: dimgrey;
+        }
+    </style>
+    <body>
+        <h1>BOOKING MOVIE TICKETS</h1>
+        <h3><marquee>watch your favourite movie</marquee></h3>
+        <img src="data:image/png;base64,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" height="200" width="1000">
+
+        <form>
+            <fieldset>
+
+                <legend>person details</legend>
+            <label for="name">NAME</label>
+            <input type="text" name="NAME"><br><br>
+            <label for="phno">PHNO</label>
+            <input type="text" name="PHNO"> <br><br>
+            <label for="email">EMAIL</label>
+            <input type="text" name="EMAIL"><br><br>
+            <select name="gender">
+                <option>GENDER</option>
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+                <option value="others">OTHERS</option><br><br>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>movie details</legend>
+            <select name="SELECT MOVIE">
+                <option>SELECT MOVIE</option>
+                <option value="GODFATER">GODFATHER</option>
+                <option value="ghost">GHOST</option>
+                <option value="SWATI MUTYAM">SWATI MUTYAM</option>
+            </select><br><br>
+            <label for="no of tickets">NO OF TICKETS</label>
+            <input type="number" name="NO OF TICKETS"><br><br>
+         </fieldset>
+         <fieldset>
+            <legend>interval snacks</legend>
+            <input type="checkbox" name="popcorn">popcorn
+            <input type="checkbox" name="samosa">samosa
+            <input type="checkbox" name="pizza">pizza
+            <input type="checkbox" name="cool drinks">colldrinks
+         </fieldset>
+         <fieldset>
+            <legend>payment method</legend>
+                <select name="payment optoin">payment option
+                <option>payment option</option>
+                <option value="1">cash</option>
+                <option value="1">g pay</option>
+                <option value="1">phone pay</option>
+                <option value="1">credit card</option>
+
+                </select>
+         </fieldset>
+         <fieldset>
+            <legend>other instruction</legend>
+            <label for="other instruction"></label>
+            <textarea name="" rows="3" cols="40"></textarea>
+         </fieldset>
+         <input type="submit" value="submit">
+         <input type="submit" value="cancle">
+
+        </form>
+
+    </body>
+</html>
